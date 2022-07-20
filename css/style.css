@@ -291,27 +291,27 @@
 
     .banner-content-left {
         width: 100%;
-        padding: 100px 80px;
+        padding: 70px 80px;
         text-align: center;
     }
 
     .banner-content-left h1 {
-        font-size: 100px;
-        padding: 20px 50px;
+        font-size: 50px;
+        padding: 20px 20px;
     }
 
     .banner-content-left p {
-        font-size: 40px;
-        padding: 40px 50px;
+        font-size: 18px;
+        padding: 10px 20px;
     }
 
     .banner-content-left a {
-        font-size: 35px;
+        font-size: 18px;
         padding: 20px 30px;
     }
 
     .banner-content-right img {
-        width: 105%;
+        width: 106%;
     }
 
     .banner-content-right {
@@ -336,17 +336,17 @@
     }
 
     .right-content-section Button {
-        font-size: 35px;
+        font-size: 20px;
         padding: 10px 20px;
     }
 
     .right-content-section h3 {
-        font-size: 50px;
+        font-size: 30px;
         margin: 30px 0;
     }
 
     .time-comment {
-        font-size: 40px;
+        font-size: 20px;
     }
 
     .blog-container {
@@ -365,22 +365,26 @@
     }
 
     .main-section-left-content a {
-        font-size: 40px;
+        font-size: 30px;
         border: 1px solid var(--background-2);
         padding: 25px 40px;
     }
 
+    #blogs{
+                font-size: 22px;
+    }
     #blogs a {
-        font-size: 40px;
         border: 1px solid red;
     }
 
     .main-section-left :nth-child(1) {
         margin-bottom: 25px;
+        font-size: 22px;
     }
 
     .main-section-left :nth-child(2) {
         margin-bottom: 25px;
+        font-size: 22px;
     }
 
     /* Footer */
@@ -389,7 +393,7 @@
     }
 
     .footer h2 {
-        font-size: 80px;
+        font-size: 50px;
     }
 
     .bar {
@@ -398,7 +402,7 @@
     }
 
     .footer-links a {
-        font-size: 30px;
+        font-size: 18px;
         margin-bottom: 30px;
     }
 
@@ -416,6 +420,14 @@
 
     .banner-content {
         margin: 50px 50px;
+    }
+    .banner-content-left {
+        width: 65%;
+        padding: 50px 0px 50px 30px;
+    }
+
+    .banner-content-right{
+        width: 35%;
     }
 
     .main-section {
@@ -437,6 +449,7 @@
     .main-section-left-content {
         display: flex;
         flex-direction: row;
+        align-items: center;
         gap: 30px;
         background-color: transparent;
         text-align: center;
@@ -445,7 +458,7 @@
     .main-section-left-content a {
         width: 33.33%;
         border: 1px solid var(--background-2);
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .main-section-left :nth-child(3) {
