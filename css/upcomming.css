@@ -146,11 +146,12 @@
 
 /* RIGHT */
 
-.right-content-section {
+.right-content-section-up {
     border: 1px solid rgb(0, 0, 104);
     ;
     border-radius: 10px 10px 10px 10px;
     background-image: linear-gradient(to bottom right, rgb(0, 0, 26), rgb(0, 0, 66));
+    padding: 40px 10px;
 }
 
 .blog-container {
@@ -163,11 +164,6 @@
     background-color: transparent;
 }
 
-.image-container img {
-    width: 100%;
-    border-radius: 10px 10px 0px 0px;
-}
-
 .main-section-right-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -176,49 +172,43 @@
 
 .blog-container {
     padding: 10px 10px;
-}
-
-.time,
-.comment {
-    display: flex;
-    gap: 8px;
-    align-items: center;
-    color: rgb(150, 150, 150);
-    background-color: transparent;
-}
-
-.blog-container button {
-    color: var(--font-1);
-    border: 1px solid var(--font-1);
-    padding: 5px 10px;
-    letter-spacing: 0.5px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 12px;
+    text-align: center;
+    font-weight: 400;
     letter-spacing: 1px;
 }
 
-.time-comment {
+.up-image-container {
     display: flex;
-    gap: 20px;
-    background-color: transparent;
+    align-items: center;
+    justify-content: center;
 }
 
-.blog-container h3 {
-    margin: 12px 0;
-    font-weight: 500;
-    letter-spacing: 1.5px;
-    font-size: 17px;
+.flags {
+    width: 40%;
+}
+
+.flags img {
+    width: 100%;
+
+}
+
+.vs {
+    width: 20%;
     background-color: transparent;
+    color: var(--font-1);
+    text-align: center;
 }
 
 .backTransperent {
     background-color: transparent;
 }
 
-.allBtn {
-    display: none;
+.blog-container p {
+    color: var(--font-2);
+    margin-top: 10px;
+    font-size: 13px;
 }
+
 
 /*****************************
             Footer
@@ -270,8 +260,6 @@
     color: #fff;
     transform: rotate(360deg);
 }
-
-
 
 /*****************************
         Media Query
@@ -378,6 +366,23 @@
         margin-bottom: 25px;
     }
 
+    .right-content-section-up {
+        margin: 10px 40px;
+        padding: 80px 40px;
+    }
+
+    .vs {
+        font-size: 35px;
+    }
+
+    .right-content-section-up h3 {
+        font-size: 50px;
+    }
+
+    .right-content-section-up p {
+        font-size: 30px;
+    }
+
     /* Footer */
     .footer-links {
         flex-direction: column;
@@ -395,10 +400,6 @@
     .footer-links a {
         font-size: 30px;
         margin-bottom: 30px;
-    }
-
-    .allBtn {
-        display: none;
     }
 }
 
@@ -464,24 +465,5 @@
     .footer-links a {
         font-size: 20px;
         margin-bottom: 30px;
-    }
-
-    .allBtn {
-        text-align: center;
-        margin-top: 80px;
-    }
-
-    .allBtn a {
-        text-decoration: none;
-        color: var(--font-1);
-        font-size: 20px;
-        letter-spacing: 2px;
-        padding: 15px 30px;
-        background-color: var(--background-2);
-        border-radius: 10px;
-    }
-
-    .allBtn a:hover {
-        background-color: var(--background-3);
     }
 }
